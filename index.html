@@ -79,5 +79,68 @@
         </tr>
       </tfoot>
     </table>
+
+    <hr />
+    <h2>HTML Form Example</h2>
+    <form action="#">
+      <div>
+        <label for="username">Username</label>
+        <input type="text" id="username" />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+      </div>
+      <div>
+        <label>Favorite Instructor</label>
+        <br />
+        <input type="radio" name="favorite_instructor" id="elie" />
+        <label for="elie">Elie</label>
+        <input type="radio" name="favorite_instructor" id="matt" />
+        <label for="matt">Matt</label>
+        <input type="radio" name="favorite_instructor" id="tim" />
+        <label for="tim">Tim</label>
+      </div>
+      <div>
+        <label>Favorite Programming Language(s)</label>
+        <br />
+        <input
+          type="checkbox"
+          name="favorite_language"
+          value="Ruby"
+          id="ruby"
+        />
+        <label for="ruby">Ruby</label>
+        <input
+          type="checkbox"
+          name="favorite_language"
+          value="JavaScript"
+          id="javascript"
+        />
+        <label for="javascript">JavaScript</label>
+        <input
+          type="checkbox"
+          name="favorite_language"
+          value="Python"
+          id="python"
+        />
+        <label for="python">Python</label>
+        <input type="checkbox" name="favorite_language" value="Go" id="go" />
+        <label for="go">Go</label>
+      </div>
+      <div>
+        <label for="comments">Additional Comments</label>
+        <textarea
+          name="comments"
+          id="comments"
+          cols="30"
+          rows="10"
+          placeholder="Comments"
+        ></textarea>
+      </div>
+      <div>
+        <input type="submit" value="All Done!" />
+      </div>
+    </form>
   </body>
 </html>
