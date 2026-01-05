@@ -1,0 +1,3 @@
+# Ignore AI agent instruction files
+.github/copilot-instructions.md
+CLAUDE.md
